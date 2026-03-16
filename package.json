@@ -1,14 +1,38 @@
 {
-  "name": "npx-card",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "viniciuslft",
+  "version": "1.0.0",
+  "description": "A personal card for Vinicius Pedroza Estrela (@viniciuslft)",
+  "main": "cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node cli.js",
+    "pub": "npm version major & npm publish"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "viniciuslft",
   "type": "commonjs",
-  "bin": "./cli.js"
+  "bin": {
+    "viniciuslft": "./cli.js"
+  },
+  "dependencies": {
+    "prettyjson": "^1.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciuslft/npx-card.git"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "files": [
+    "cli.js",
+    "index.js",
+    "data.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
 }
