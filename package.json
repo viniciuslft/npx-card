@@ -9,9 +9,7 @@
   },
   "author": "viniciuslft",
   "type": "commonjs",
-  "bin": {
-    "viniciuslft": "./cli.js"
-  },
+  "bin": "./cli.js",
   "dependencies": {
     "prettyjson": "^1.2.5"
   },
