@@ -1,6 +1,6 @@
 {
   "name": "viniciuslft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A personal card for Vinicius Pedroza Estrela (@viniciuslft)",
   "main": "cli.js",
   "scripts": {
